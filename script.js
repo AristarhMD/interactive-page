@@ -2,12 +2,6 @@ const priceSlider = document.querySelector("#price");
 const pageViewersEl = document.querySelector(".page-viewers");
 const pagePriceEl = document.querySelector(".page-price");
 
-// - 10K pageviews / $8 per month
-// - 50K pageviews / $12 per month
-// - 100K pageviews / $16 per month
-// - 500k pageviews / $24 per month
-// - 1M pageviews / $36 per month
-
 colorSlider();
 
 priceSlider.addEventListener("input", () => {
